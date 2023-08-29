@@ -37,7 +37,7 @@ public class Dialog {
         System.out.print("That's cool! " + hobbies + " sounds fun).  Lastly, could you let us know whether you prefer tea or coffee?. ");
         String answear = in.nextLine();
 
-        System.out.print("Do you have programming experience? (yes/no) ");
+        System.out.print("And another one:) Do you have programming experience? (yes/no) ");
         String programmingexperience = in.nextLine();
 
         boolean yesJavaExp = programmingexperience.contains("yes") || programmingexperience.contains("Yes");
